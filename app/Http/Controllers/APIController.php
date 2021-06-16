@@ -81,7 +81,11 @@ class APIController extends Controller
                     'details'   => $Getproduct->details,
                     ];
 
-            return response()->json([$product,200]);
+            return response()->json([
+                'product'    => $product,
+                'success'    => true,
+                'status'     => 200
+            ]);
 
         }else{
             return response()->json([
