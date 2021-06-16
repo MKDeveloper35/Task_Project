@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "b9c707c6-c23f-4345-b7ab-317c3eede230",
+		"name": "Demo_Project_API's",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/Laravel_Projects/shopping_demo/api/v1/home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/Laravel_Projects/shopping_demo/api/v1/home",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Laravel_Projects",
+						"shopping_demo",
+						"api",
+						"v1",
+						"home"
+					]
+				},
+				"description": "Home Page API's"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/Laravel_Projects/shopping_demo/api/v1/product/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/Laravel_Projects/shopping_demo/api/v1/product/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Laravel_Projects",
+						"shopping_demo",
+						"api",
+						"v1",
+						"product",
+						"2"
+					]
+				},
+				"description": "Get Product By ID"
+			},
+			"response": []
+		}
+	]
+}
